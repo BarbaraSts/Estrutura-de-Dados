@@ -43,29 +43,29 @@ public class Vetor{
 
         if (resultadoIMC < 18.5 )
         {
-        System.out.printf("\nVocê está abaixo do peso!");
+        System.out.printf("\nVocê está abaixo do peso!\n");
         return;
         }
 
         if (resultadoIMC >= 18.5 && resultadoIMC <= 24.9)
         {
-            System.out.printf("\nVocê está no peso ideal!");
+            System.out.printf("\nVocê está no peso ideal!\n");
             return;
         }
 
         if (resultadoIMC >=  25.0 && resultadoIMC <= 29.9)
          {
-            System.out.printf("\nVocê está acima do peso!");
+            System.out.printf("\nVocê está acima do peso!\n");
             return;
         }
         if (resultadoIMC >=  30.0 && resultadoIMC <= 39.9)
          {
-            System.out.printf("\nVocê está na obesidade!");
+            System.out.printf("\nVocê está na obesidade!\n");
             return;
         }
         if (resultadoIMC >= 40.0)
         {
-            System.out.printf("\nVocê está na obesidade grave!");
+            System.out.printf("\nVocê está na obesidade grave!\n");
             return;
         }
 
